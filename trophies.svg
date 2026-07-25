@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+<defs>
+<linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0e0318"/><stop offset="100%" stop-color="#1a0530"/>
+</linearGradient>
+<linearGradient id="ringGradS" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ff3d94"><animate attributeName="stop-color" values="#ff3d94;#a020f0;#c026d3;#ff3d94" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#a020f0"><animate attributeName="stop-color" values="#a020f0;#c026d3;#ff3d94;#a020f0" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="glowS" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<clipPath id="trophyClip"><rect x="0" y="0" width="900" height="220" rx="18"/></clipPath></defs>
+<g clip-path="url(#trophyClip)">
+<rect x="0" y="0" width="900" height="220" fill="url(#cardBg)"/>
+<rect x="1" y="1" width="898" height="218" rx="18" fill="none" stroke="#4a1568"/>
+
+        <g transform="translate(20,30.0) scale(0.7)" opacity="0" style="transform-origin:85.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="20,110.0; 20,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.25s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#ff3d94" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#ff3d94" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#ff3d94">SSS</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Commits</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="0.85s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+
+        <g transform="translate(164,30.0) scale(0.7)" opacity="0" style="transform-origin:229.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="164,110.0; 164,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.39s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.39s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#a020f0" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#a020f0" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#a020f0">S</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Stars</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="0.99s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+
+        <g transform="translate(308,30.0) scale(0.7)" opacity="0" style="transform-origin:373.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="308,110.0; 308,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.53s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.53s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#c026d3" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#c026d3" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#c026d3">A+</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">PRs</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="1.13s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+
+        <g transform="translate(452,30.0) scale(0.7)" opacity="0" style="transform-origin:517.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="452,110.0; 452,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.67s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.67s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#5eead4" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#5eead4" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#5eead4">A</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Followers</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="1.27s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+
+        <g transform="translate(596,30.0) scale(0.7)" opacity="0" style="transform-origin:661.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="596,110.0; 596,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.81s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.81s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#7b2ff7" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#7b2ff7" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#7b2ff7">B+</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Repos</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="1.41s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+
+        <g transform="translate(740,30.0) scale(0.7)" opacity="0" style="transform-origin:805.0px 110.0px">
+          <animateTransform attributeName="transform" type="translate" values="740,110.0; 740,30.0" dur="0.001s" begin="0s" fill="freeze"/>
+          <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.95s" fill="freeze"/>
+          <animateTransform attributeName="transform" type="scale" additive="sum" values="0.6;1.08;1" keyTimes="0;0.7;1" dur="0.5s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1;0.3 0 0.2 1"/>
+          <rect x="0" y="0" width="130" height="160" rx="14" fill="#170225" stroke="#ff3d94" stroke-width="1.4"/>
+          <circle cx="65.0" cy="52" r="30" fill="none" stroke="#ff3d94" stroke-width="4" filter="url(#glowS)"/>
+          <text x="65.0" y="60" text-anchor="middle" font-family="Segoe UI,sans-serif" font-weight="800" font-size="18" fill="#ff3d94">A</text>
+          <text x="65.0" y="106" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Reviews</text>
+          <text x="65.0" y="126" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9.5" fill="#c9a6e8">RANK</text>
+          <rect x="0" y="0" width="160" height="160" fill="url(#ringGradS)" opacity="0.18" transform="skewX(-20) translate(-160,0)">
+            <animate attributeName="transform" values="skewX(-20) translate(-160,0);skewX(-20) translate(290,0)" dur="2.6s" begin="1.55s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+</g>
+</svg>

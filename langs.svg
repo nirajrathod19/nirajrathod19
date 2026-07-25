@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260">
+<defs>
+<linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0e0318"/><stop offset="100%" stop-color="#1a0530"/>
+</linearGradient>
+<linearGradient id="ringGradS" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#ff3d94"><animate attributeName="stop-color" values="#ff3d94;#a020f0;#c026d3;#ff3d94" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#a020f0"><animate attributeName="stop-color" values="#a020f0;#c026d3;#ff3d94;#a020f0" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="glowS" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+<rect x="1" y="1" width="478" height="258" rx="18" fill="url(#cardBg)" stroke="#4a1568"/>
+<text x="24" y="26" font-family="Segoe UI,sans-serif" font-weight="700" font-size="16" fill="#f3e8ff" opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.05s" fill="freeze"/>Most Used Languages</text>
+
+        <text x="24" y="40" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">Python</text>
+        <text x="364" y="40" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#3572A5" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.10s" fill="freeze"/>30%</text>
+        <rect x="24" y="46" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="46" width="0" height="9" rx="4.5" fill="#3572A5">
+          <animate attributeName="width" from="0" to="102.0" dur="1s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+        <text x="24" y="74" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">SQL</text>
+        <text x="364" y="74" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#c026d3" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.26s" fill="freeze"/>24%</text>
+        <rect x="24" y="80" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="80" width="0" height="9" rx="4.5" fill="#c026d3">
+          <animate attributeName="width" from="0" to="81.6" dur="1s" begin="0.46s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+        <text x="24" y="108" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">JavaScript</text>
+        <text x="364" y="108" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#f1c40f" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.42s" fill="freeze"/>18%</text>
+        <rect x="24" y="114" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="114" width="0" height="9" rx="4.5" fill="#f1c40f">
+          <animate attributeName="width" from="0" to="61.2" dur="1s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+        <text x="24" y="142" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">HTML</text>
+        <text x="364" y="142" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#e34c26" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.58s" fill="freeze"/>14%</text>
+        <rect x="24" y="148" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="148" width="0" height="9" rx="4.5" fill="#e34c26">
+          <animate attributeName="width" from="0" to="47.6" dur="1s" begin="0.78s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+        <text x="24" y="176" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">CSS</text>
+        <text x="364" y="176" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#5eaee0" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.74s" fill="freeze"/>9%</text>
+        <rect x="24" y="182" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="182" width="0" height="9" rx="4.5" fill="#5eaee0">
+          <animate attributeName="width" from="0" to="30.6" dur="1s" begin="0.94s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+        <text x="24" y="210" font-family="Segoe UI,sans-serif" font-size="12.5" fill="#f3e8ff">DAX / Power BI</text>
+        <text x="364" y="210" text-anchor="end" font-family="'Courier New',monospace" font-size="11.5" fill="#5eead4" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.90s" fill="freeze"/>5%</text>
+        <rect x="24" y="216" width="340" height="9" rx="4.5" fill="#170225"/>
+        <rect x="24" y="216" width="0" height="9" rx="4.5" fill="#5eead4">
+          <animate attributeName="width" from="0" to="17.0" dur="1s" begin="1.10s" fill="freeze" calcMode="spline" keySplines="0.2 0.7 0.3 1"/>
+        </rect>
+</svg>
